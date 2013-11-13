@@ -1,3 +1,4 @@
+{Сортировка простыми включениями}
 procedure Sort(n : integer; var A : TArray);
 var
   i,j : integer;

@@ -1,3 +1,5 @@
+{ Сортировка методом Шелла }
+
 const
   t = 4;
   h : array [1..t] of integer = (11, 7, 4, 1);
@@ -8,8 +10,6 @@ var
    h : array [1..t] of byte;
    x : Item;
 begin
-{ Сортировка методом Шелла }
-
   for m := 1 to t do begin
     k := h[m];
 

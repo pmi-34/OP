@@ -1,3 +1,4 @@
+{Сортировка Шейкера}
 procedure Sort(n : integer; var a : TArray);
 var
   j,k,l,r : integer;

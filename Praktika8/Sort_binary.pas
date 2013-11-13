@@ -1,3 +1,4 @@
+{Сортировка бинарными вставками}
 procedure Sort(n : integer; var a : TArray);
 var 
   i,j,l,r,m : integer;

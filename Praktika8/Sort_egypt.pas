@@ -1,4 +1,5 @@
-procedure egypt (var A : Tarray; n : integer);
+{Сортировка пирамидкой}
+procedure Egypt (var A : Tarray; n : integer);
 var 
   r,i,j : integer;
   x : Item;
@@ -49,7 +50,7 @@ var
 begin
   for t := n downto 2 do begin 
     (*Строим пирамиду из i элементов*)  
-    egypt(A, i); 
+    Egypt(A, i); 
     (*Меняем местами 1 -й и i-й элементы*)
     t := A[1]; 
     A[1] := A[i];

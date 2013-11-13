@@ -1,3 +1,4 @@
+{Сортировка пузырьком}
 procedure Sort(n : integer; var A : TArray);
 var
   i,j : integer;
