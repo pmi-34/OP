@@ -6,7 +6,7 @@ procedure Sort(n : integer; var A : TArray);
 var
    i,j,k,m : integer;
    h : array [1..t] of byte;
-   x : people;
+   x : Item;
 begin
 { Сортировка методом Шелла }
 
@@ -20,7 +20,7 @@ begin
       j := i + k;
 
       while (j <= n) do begin
-        if (A[i] < A[j]) then begin
+        if (A[i].key < A[j].key) then begin
           { Меняем элементы местами }
           x := A[i];
           A[i] := A[j];
