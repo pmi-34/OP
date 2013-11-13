@@ -20,11 +20,11 @@ begin
       j := i + k;
 
       while (j <= n) do begin
-        if (p[i] < p[j]) then begin
+        if (A[i] < A[j]) then begin
           { Меняем элементы местами }
-          x := p[i];
-          p[i] := p[j];
-          p[j] := x;
+          x := A[i];
+          A[i] := A[j];
+          A[j] := x;
         end;
         j := j + k;
       end;
